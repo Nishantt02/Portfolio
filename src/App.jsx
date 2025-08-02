@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar";
 import BlurBlob from "./Blurbob.jsx";
 import About from "./Components/About.jsx";
 import Skills from "./Components/Skills.jsx";
-
+import Work from "./Components/Work.jsx"
 const App = () => {
   return (
     <div className="bg-[#050414]">
@@ -16,6 +16,7 @@ const App = () => {
         <Navbar />
         <About/>
         <Skills/>
+        <Work/>
         
       </div>
 
