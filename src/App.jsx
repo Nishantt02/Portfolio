@@ -4,6 +4,7 @@ import BlurBlob from "./Blurbob.jsx";
 import About from "./Components/About.jsx";
 import Skills from "./Components/Skills.jsx";
 import Work from "./Components/Work.jsx"
+import Education from "./Components/Education.jsx";
 const App = () => {
   return (
     <div className="bg-[#050414]">
@@ -17,7 +18,7 @@ const App = () => {
         <About/>
         <Skills/>
         <Work/>
-        
+        <Education/>
       </div>
 
     </div>
