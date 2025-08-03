@@ -20,7 +20,7 @@ const App = () => {
         <Navbar/>
 
 
-        <section id="about"><About /></section>
+ <section id="about"><About /></section>
 <section id="skills"><Skills /></section>
 <section id="project"><Work /></section>
 <section id="education"><Education /></section>
