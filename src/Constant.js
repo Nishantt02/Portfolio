@@ -22,7 +22,6 @@ import git from './Assets/git.png'
 import Uber from './Assets/Uber.png'
 import Convertor from './Assets/Convertor.png'
 import Wheather from './Assets/Wheather.png'
-
 import Chatbot from './Assets/Chatbot.png'
 import github from './Assets/github.png'
 import Doctor from './Assets/Doctor.png'
@@ -34,7 +33,8 @@ import School from './Assets/School.png'
 export const SkillsInfo = [
   {
     title: "Frontend",
-    skills: [
+    skills: 
+    [
       { name: 'HTML', logo: Html },
       {
           name:'CSS',logo:CSS
@@ -66,7 +66,7 @@ export const SkillsInfo = [
     {
       name:'Node.js',logo:nodejs
     },{
-name:'Express.js',logo:express
+        name:'Express.js',logo:express
     },{
       name:'MongoDB',logo:mongodb
     },{
@@ -94,7 +94,8 @@ name:'Express.js',logo:express
       }
     ]
 
-},{
+},
+{
   title:'Tools',
   skills:[
     {
