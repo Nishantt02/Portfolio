@@ -153,7 +153,7 @@ export const education=[
       image: Uber,
       tags: ["HTML", "CSS", "JavaScript", "React JS","API" ,"Express JS","MongoDb","Node JS","Socket.IO"],
       github: "https://github.com/Nishantt02/FullStack-Uber",
-      webapp: "https://fullstack-uber-4.onrender.com/",
+      webapp: "https://fullstack-uber-13.onrender.com/",
     },
 
 
