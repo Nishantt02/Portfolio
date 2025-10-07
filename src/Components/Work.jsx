@@ -8,8 +8,6 @@ const Work = () => {
     setSelectedProject(project);
   };
 
- 
-
   return (
     <section
       id="work"
@@ -58,34 +56,24 @@ const Work = () => {
                 ))}
               </div>
 
-              {/* Buttons inside card */}
+              {/* Centered View Code Button */}
               <div
-                className="flex gap-4"
+                className="flex justify-center"
                 onClick={(e) => e.stopPropagation()} // Prevent modal from opening when clicking link
               >
                 <a
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 text-sm px-3 py-2 rounded-xl text-center font-semibold"
+                  className="bg-gray-800 hover:bg-purple-800 text-gray-400 text-sm px-6 py-2 rounded-xl text-center font-semibold"
                 >
-                  View Code
-                </a>
-                <a
-                  href={project.webapp}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white text-sm px-3 py-2 rounded-xl text-center font-semibold"
-                >
-                  View Live
+                  View 
                 </a>
               </div>
             </div>
           </div>
         ))}
       </div>
-
-      
     </section>
   );
 };

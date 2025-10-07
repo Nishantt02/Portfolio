@@ -28,6 +28,7 @@ import Doctor from './Assets/Doctor.png'
 import Nike from './Assets/Nike.png'
 import TMU from './Assets/TMU.jpeg'
 import School from './Assets/School.png'
+import Trading from './Assets/Trading.png'
 
 
 export const SkillsInfo = [
@@ -165,7 +166,16 @@ export const education=[
       image: Chatbot,
       tags: ["HTML", "CSS", "JavaScript", "React JS"," Gemini API" ,"Express JS", " Tailwind CSS","MongoDb","Node JS",],
       github: "https://github.com/Nishantt02/Chatbot",
-      webapp: "https://frontend-2-ofef.onrender.com/",
+      
+    },
+     {
+      id:0,
+      title:"Trading APP",
+      description:"It is the Trading Application In which we can purchase the stock and check our portfolio of buying stocks and also to the wishlist.",
+      image:Trading,
+      tags:["HTML","CSS","JavaScript","React js","Node js","express js","mongoDb","Tailwind CSS",],
+      github:"https://github.com/Nishantt02/Wheather-application",
+      webapp:"https://github.com/Nishantt02/Wheather-application"
     },
 
      {
@@ -178,6 +188,8 @@ export const education=[
       github: "https://github.com/Nishantt02/CurrencyConvertor",
       webapp: "https://currency-convertor-xnfd.vercel.app/",
     },
+    
+   
     {
       id:0,
       title:"Wheather App",
@@ -186,7 +198,9 @@ export const education=[
       tags:["HTML","CSS","JavaScript",],
       github:"https://github.com/Nishantt02/Wheather-application",
       webapp:"https://github.com/Nishantt02/Wheather-application"
-    },{
+    },
+    {
+
       id:0,
       title:"doctor_app",
       description:'Doctor Care App is a responsive and user-friendly web interface designed for booking doctor appointments. Built using modern web technologies',
@@ -194,7 +208,8 @@ export const education=[
       tags:["Next JS","TypeScript","CSS","JavaScript"],
       github:"https://github.com/Nishantt02/ellie-clone",
       webapp:"https://ellie-clone.vercel.app/"
-    },{
+    },
+    {
       id:0,
       title:"E commerce",
       description:"Shoes E-commerce Website is a stylish and responsive front-end design created with HTML and CSS. It features a clean layout to showcase various shoe products, including product images, prices, and categories.",
