@@ -29,6 +29,7 @@ import Nike from './Assets/Nike.png'
 import TMU from './Assets/TMU.jpeg'
 import School from './Assets/School.png'
 import Trading from './Assets/Trading.png'
+import messingapp from './Assets/messingapp.png'
 
 
 export const SkillsInfo = [
@@ -148,6 +149,16 @@ export const education=[
  export const projects = [
     {
       id: 0,
+      title: "Anonymous Messaging Application ",
+      description:
+        " Built a secure anonymous messaging platform using Next.js and shadcn/ui with robust authentication and session handling via NextAuth and MongoDB. Architected scalable REST APIs to preserve user anonymity, ensure message integrity, and maintain secure communication flows",
+      image:  messingapp ,
+      tags: ["Next js","shadcn","nextauth","mongodb"],
+      github: "https://github.com/Nishantt02/message_app-ama",
+      webapp: "https://fullstack-uber-13.onrender.com/",
+    },
+     {
+      id: 0,
       title: " Uber- MERN Stack Mobile Web Application",
       description:
         "In this app, users can sign up, log in, and book rides, while drivers (called captains) can accept ride requests. I added secure login using JWT and built backend APIs to handle all the main features like booking a ride, assigning drivers, and updating ride status. The frontend is made with React and styled using Tailwind CSS to make it look good on all devices",
@@ -165,7 +176,8 @@ export const education=[
       "I developed an AI chatbot web application that allows users to have real-time conversations with an intelligent assistant. The chatbot supports natural language input and provides meaningful responses using a powerful language model.",
       image: Chatbot,
       tags: ["HTML", "CSS", "JavaScript", "React JS"," Gemini API" ,"Express JS", " Tailwind CSS","MongoDb","Node JS",],
-      github: "https://github.com/Nishantt02/Chatbot",
+      github: "https://github.com/Nishantt02/chatbot",
+      webapp:"https://chatbot-gcub.onrender.com/"
       
     },
      {
@@ -174,9 +186,10 @@ export const education=[
       description:"It is the Trading Application In which we can purchase the stock and check our portfolio of buying stocks and also to the wishlist.",
       image:Trading,
       tags:["HTML","CSS","JavaScript","React js","Node js","express js","mongoDb","Tailwind CSS",],
-      github:"https://github.com/Nishantt02/Wheather-application",
-      webapp:"https://github.com/Nishantt02/Wheather-application"
+      github:"https://github.com/Nishantt02/Financial-Trading-APP",
+      webapp:"https://financial-trading55.onrender.com/"
     },
+    
 
      {
       id: 0,

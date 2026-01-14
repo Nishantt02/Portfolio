@@ -46,7 +46,7 @@ const About = () => {
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1Wz0nYDdgmN8TsX-AMXswsoADuS8OTY9i/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/16twqf_lkcnq89GY3BBi_TADMmvg4Cubj/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
